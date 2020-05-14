@@ -1,0 +1,169 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+	<title>Encuentro Musher 2019</title>
+</head>
+<body>
+
+	<!-- Modal Login -->
+	<div class="modal fade" id="modalLogin">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2>Ingrese sus datos:</h2>
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<form action="validar_login.php" method="post">
+						<div class="form-group">
+							<label for="">Nombre</label>
+							<input type="text" class="form-control"  placeholder="Nombre de usuario" name="nombreUser">
+							
+						</div>
+						<div class="form-group">
+							<label for="">Contraseña</label>
+							<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="contra">
+						</div>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+						<button type="submit" name="submit" class="btn btn-primary">Entrar</button>
+						
+						
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!------ MODAL INSCRIPCIONES ------>
+	<div class="modal fade" id="modalInscripciones">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2>Ingrese sus datos:</h2>
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<form action="datos.php" method="POST">
+						<div class="form-group">
+							<label for="exampleInputNombre1">Nombre</label>
+							<input type="text" class="form-control" id="id_nombre" aria-describedby="emailHelp" placeholder="Nombre y apellido" name="nombre" required>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputDNI1">D.N.I.</label>
+							<input type="text" class="form-control" id="id_dni" aria-describedby="emailHelp" placeholder="D.N.I." name="dni" required>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputTelefono1">Telefono</label>
+							<input type="text" class="form-control" id="id_telefono" aria-describedby="emailHelp" placeholder="Telefono" name="telefono" required>
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email</label>
+							<input type="email" class="form-control" id="id_email" aria-describedby="emailHelp" placeholder="Email" name="email" required>
+						</div>
+						<button type="submit" class="btn btn-primary">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!------ MODAL INFORMACION ------>
+	<div class="modal fade" id="modalInformacion">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3>Recorrido</h3>
+					<button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<blockquote class="embedly-card" data-card-controls="0" data-card-key="f1631a41cb254ca5b035dc5747a5bd75"><h4><a href="https://www.relive.cc/view/rt10001092458?r=embed-site">Relive 'Salida con el equipo tres cuartos'</a></h4></blockquote>
+					<script async src="https://cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!------ BARRA DE NAVEGACION -------->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 ">
+				<nav class="navbar  navbar-dark bg-dark navbar-expand-lg " style="font-size: 18px; ">
+					<a class="navbar-brand" href="index.php" style="font-size: 30px; font-family: FROSW, cursive; ">Encuentro Musher</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse correrMenu" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.php" style="font-family: FROSW">Inicio<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a style="font-family: FROSW" class="nav-link" href="#" data-toggle="modal" data-target="#modalInscripciones" style="cursor: default">Inscripciones</a>
+							</li>
+							<li class="nav-item">
+								<a style="font-family: FROSW" class="nav-link" href="#" data-toggle="modal" data-target="#modalInformacion" style="cursor: default">Informacion</a>
+							</li>
+							<!-- <li class="nav-item">
+								<a class="nav-link" href="tabla_perros.html">Equipos</a>
+							</li> -->
+							<li class="nav-item">
+								<a style="font-family: FROSW" class="nav-link" href="contacto.html">Contacto</a>
+							</li>
+							<li class="nav-item">
+								<a style="font-family: FROSW" class="nav-link" href="galeria.html">Galeria</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				
+			</div>
+		</div>
+		
+	</div>
+
+
+	<div class="container">	
+		<img src="img/BEA00051.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00117.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00061.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00090.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00099.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00056.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+		<img src="img/BEA00094.JPG" class="img-fluid imagenesGaleria" alt="Responsive image">
+	</div>
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!--  jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js" ></script>
+</body>
+</html>

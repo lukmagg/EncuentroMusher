@@ -1,0 +1,40 @@
+body{
+	background: #1E9600;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.movido-opo{
+	margin-left: 570px ;
+	
+}
+
+/* celu */
+@media (max-width: 480px){
+	
+
+	.movido-opo{
+		margin-left: 0;
+		
+	}
+
+
+	.ocultarTexto{
+		display: none;
+	}
+
+	.textoConsultas{
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.ocultar-celu{
+		display: none;
+	}
+
+	.ocultar-pc{
+		display: block;
+	}
+}

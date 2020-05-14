@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*con esto le damos el tamaño (altura) al carrusel*/
+.carousel-inner{
+  max-width:510px !important;
+  max-height: 560px !important;
+
+  
+}
+
+
+.movido{
+	margin-left: 320px !important;
+	
+}
+
+
+
+
+
+.textoConsultas{
+	display: none;
+}
+
+.divForm{
+	margin-top: 25px;
+}
+
+.ocultar-pc{
+	display: none;
+}
+
+
+
+
+img.zoom{
+	
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.4); 
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.imagenesGaleria{
+	
+	margin-top:20px;
+
+}
+
+/* celu */
+@media (max-width: 480px){
+	
+
+
+	
+
+}
+
+/* tablet */
+@media (max-width: 990px){
+	/*.movido{
+		margin-left: 0 !important;
+	}
+
+	.ocultarTexto{
+		display: none;
+	}
+
+	.imagenesGaleria{
+	
+		margin-top:20px;
+
+	}*/
+}
+
+
+/* desde 769px hasta 1600px se aplica (NOTEBOOK) */
+@media (min-width: 769px) and (max-width: 1600px){
+
+	.correrMenu{
+		margin-left: 230px;
+	}
+
+	.contenedorContacto{
+		display: flex;
+		justify-content: space-between;
+
+		
+	}
+	/*clase para el contenedor general*/
+	.n_form{
+
+		margin-top: 100px;
+		margin-right: 120px;
+		
+	}
+
+	
+
+	/*.logoImg{
+		height: 50%;
+		width: 50%;
+		margin-top: 90px;
+	}*/
+
+	.n_position_video{
+		margin-top: 10px;
+		width: 29%;
+		
+	}
+
+}
+
+/* desde 0px hasta 768px se aplica (celular)*/
+/*el responsive anda bien ya probado*/
+@media (min-width: 0px) and (max-width: 768px){
+	
+	.n_position_video{
+		display: none;
+
+
+	}
+
+	.imagenesGaleria{
+	
+		margin-top:20px;
+
+	}
+
+	.movido{
+		margin-left: -20;
+	}
+
+
+
+	.ocultarTexto{
+		display: none;
+	}
+
+	.textoConsultas{
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.ocultar-celu{
+		display: none;
+	}
+
+	.ocultar-pc{
+		display: block;
+	}
+
+	/*Contenedor flexible para la parte de contacto*/
+
+	.contenedorContacto{
+		display: flex;
+		flex-wrap: wrap;
+
+		
+	}
+	/*clase para el contenedor general*/
+	.n_form{
+		margin-top: 40px;
+	
+	}
+
+	
+
+	.logoImg{
+		display: none;
+	}
+
+	/*.n_position_video{
+		display: none;
+	}*/
+}
+
+
+
+/* mas de 1800px se aplica (Pantallas 24 para arriba) */
+@media  (min-width: 1800px){
+
+}

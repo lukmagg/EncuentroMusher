@@ -1,0 +1,18 @@
+[05-May-2019 23:31:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[05-May-2019 23:51:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[05-May-2019 23:53:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[05-May-2019 23:54:01 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[05-May-2019 23:58:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:02:50 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:05:48 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'elopo'@'ip-107-180-11-206.ip.secureserver.net' (using password: YES) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:13:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'hrwkmfeq7csy'@'ip-107-180-11-206.ip.secureserver.net' (using password: YES) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:13:35 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host '127.0.0.1:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:23:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'hrwkmfeq7csy'@'ip-107-180-11-206.ip.secureserver.net' (using password: YES) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:24:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'elopo'@'ip-107-180-11-206.ip.secureserver.net' (using password: YES) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:26:26 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'hrwkmfeq7csy'@'ip-107-180-11-206.ip.secureserver.net' (using password: YES) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 00:33:22 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'localhost:3306' (0) in /home/hrwkmfeq7csy/public_html/validar_login.php on line 26
+[06-May-2019 01:07:14 UTC] PHP Parse error:  syntax error, unexpected ''\n'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/hrwkmfeq7csy/public_html/datos_nuevo_corredor.php on line 35
+[06-May-2019 01:07:18 UTC] PHP Parse error:  syntax error, unexpected ''\n'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/hrwkmfeq7csy/public_html/datos_nuevo_corredor.php on line 35
+[06-May-2019 01:07:21 UTC] PHP Parse error:  syntax error, unexpected ''\n'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/hrwkmfeq7csy/public_html/datos_nuevo_corredor.php on line 35
+[06-May-2019 01:07:40 UTC] PHP Parse error:  syntax error, unexpected ''\n'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/hrwkmfeq7csy/public_html/datos_nuevo_corredor.php on line 35
+[07-Dec-2019 23:56:30 UTC] PHP Notice:  Undefined index: sugerencia in /home/hrwkmfeq7csy/public_html/enviar-sugerencia.php on line 3
